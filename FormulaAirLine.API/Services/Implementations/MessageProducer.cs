@@ -12,8 +12,8 @@ namespace FormulaAirLine.API.Services.Implementations
             var factory = new ConnectionFactory()
             {
                 HostName = "localhost",
-                UserName = "root",
-                Password = "password",
+                UserName = "guest",
+                Password = "guest",
                 VirtualHost = "/"
             };
 
